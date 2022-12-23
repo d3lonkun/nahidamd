@@ -711,4 +711,4 @@ fs.watchFile(file, () => {
 	require(file)
 })
 
-require("http").createServer((_, res) => res.end("Uptime!")).listen(8080)
+require('./server.js')();
